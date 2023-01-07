@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <script src="https://kit.fontawesome.com/62bbf408dd.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./dist/css/main.css">
+    
+
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="container  header__content">
+            
+            
+        
+
+            <div class="logo">
+                <img src="/images/logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul class="links">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                      <i id="toggle_nav_close" class="fas fa-times"></i>
+                    <li><button type="button" href="#" class="primary__btn">sign up</button></li>
+                </ul>
+              
+            </nav>
+            
+            <i class="fas fa-bars" id="toggle_nav"></i>
+
+        </div> 
+
+        <section class="header__body container ">
+
+            <p class="sub__title">i m  <span id="typed"></span> </p>
+            <h1><span class="author">jaswant singh</span> from india</h1>
+            <button type="button" class=" primary__btn">hire me</button>
+
+        </section>
+    </header>
+
+    <!-- about me section -->
+    <section class=" about my">
+        <div class=" container">
+            <div class="row">
+                <div class="col-1">
+                    <figure>
+                        <img src="./images/user.png" alt="user">
+                    </figure>
+                </div>
+                <div class="col-2">
+                    <h2 class="title text-capitalize">About me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatum, illum eum ipsa
+                        voluptates nam enim incidunt corporis esse, suscipit cumque iure illo necessitatibus vitae quae
+                        repellat officiis laudantium quas facilis ut fuga vel, ipsum dolorum! Libero velit odio earum
+                        quasi a. Molestias, expedita nisi.</p>
+
+                    <div class="tab__title">
+                        <p onmouseover="openTab('skill')" class="tab__link  tab__link--active">skill</p>
+                        <p onmouseover="openTab('experience')" class="tab__link">experience</p>
+                        <p onmouseover="openTab('education')" class="tab__link">education</p>
+                    </div>
+                    <div id="skill" class="tab__contents tab__content-active  ">
+                        <ul>
+                            <li><span>web </span><br>web development</li>
+                            <li><span>ui/ux</span><br>web development</li>
+                            <li><span>android development</span><br>create awsome android app</li>
+                        </ul>
+                    </div>
+
+                    <div id="experience" class="tab__contents">
+                        <ul>
+                            <li><span>2019-2011 </span><br>TEAM lead at startup</li>
+                            <li><span>2019-2011 </span><br>TEAM lead at startup</li>
+                            <li><span>2019-2011 </span><br>TEAM lead at startup</li>
+                        </ul>
+                    </div>
+
+                    <div id="education" class="tab__contents">
+                        <ul>
+                            <li><span>2021 </span><br>graduate from BA</li>
+                            <li><span>2020</span><br>IIT from camp</li>
+                            <li><span>2018</span><br>BBA from mumbai</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about me section -->
+
+
+    <!-- services section -->
+    <section class="service my">
+        <div class="container">
+            <h2 class="title text-center text-capitalize">services</h2>
+            <div class="service__list mt">
+                <div>
+                    <i class="fas list__icon fa-code"></i>
+                    <h2 class=" text-center text-capitalize  mt">web desighn</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, provident dolor! Ea magni
+                        inventore magnam possimus rerum ab ducimus eligendi nisi, perferendis, aperiam accusamus nulla
+                        quisquam expedita mollitia facilis eveniet veniam provident voluptates nihil facere velit!
+                        Beatae, nemo est architecto non optio omnis iusto accusamus sit!</p>
+                    <a class=" primary__btn mt" href="">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas list__icon fa-crop-alt"></i>
+                    <h2 class=" text-center text-capitalize  mt">UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, provident dolor! Ea magni
+                        inventore magnam possimus rerum ab ducimus eligendi nisi, perferendis, aperiam accusamus nulla
+                        quisquam expedita mollitia facilis eveniet veniam provident voluptates nihil facere velit!
+                        Beatae, nemo est architecto non optio omnis iusto accusamus sit!</p>
+                    <a class=" primary__btn mt" href="">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands list__icon fa-app-store-ios"></i>
+                    <h2 class=" text-center text-capitalize  mt">app design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, provident dolor! Ea magni
+                        inventore magnam possimus rerum ab ducimus eligendi nisi, perferendis, aperiam accusamus nulla
+                        quisquam expedita mollitia facilis eveniet veniam provident voluptates nihil facere velit!
+                        Beatae, nemo est architecto non optio omnis iusto accusamus sit!</p>
+                    <a class=" primary__btn mt" href="">learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- services section -->
+
+
+
+    <!-- mywork section -->
+    <section class="mywork my">
+        <div class="container">
+            <h2 class="title text-center text-capitalize">my work</h2>
+            <div class="mywork__list my">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3 class=" text-capitalize">social media app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3 class=" text-capitalize">latest podcast</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3 class=" text-capitalize">company team</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                </div>
+
+               
+            </div>
+            
+            <!-- <div class="seemore">
+                    <button class=" primary__btn">see more</button>
+                </div> -->
+        </div>
+
+    </section>
+    <!-- mywork section -->
+
+
+    <!-- contact section -->
+    <section class="contact my">
+        <div class="container">
+          
+            <div class="row my">
+                <div class="col-1">
+                      <h2 class="title  text-capitalize"> contact  Me </h2>
+                      <p> <i class="fa-sharp icon fa-solid fa-envelope"></i>  contact@yahoo.in</p>
+                      <p>  <i class="fa-solid icon fa-phone"></i>  +919868685245</p>
+                      <div class="media">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                      </div>
+
+                      <button type="button" style="height: 45px; width: 150px;" class=" primary__btn mt">download CV</button>
+                </div>
+                <div class="col-2">
+
+                    <p class="main__title">write your query to us</p>
+                    <p class="text-muted">your all of info will be secured </p>
+                    <form action="">
+                        <div class="form__group">
+                            <input type="text" placeholder="name here" name="" id="">
+                        </div>
+
+                        <div class="form__group">
+                            <input type="email" placeholder="email@contact.com" name="" id="">
+                        </div>
+
+                        <div class="form__group">
+                            <textarea name="" placeholder="write your query" id="" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <button class="subbmit primary__btn" style="width: 100%; height: 40px;" type="submit">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- contact section -->
+
+
+
+
+    <!-- custom js script  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="./app/sript.js"></script>
+
+</body>
+
+</html>
